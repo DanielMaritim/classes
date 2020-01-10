@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>classes</title>
+</head>
+<body>
+	
+</body>
+
+<script type="text/javascript">
+// a class is defined by the class declaration.
+// one will need to declare the class and access it or else it will throw a reference error
+	class Person  {
+		constructor(name,age,weight) {
+			this.name = name;
+			this.age = age;
+			this.weight = weight;
+		
+		}
+		displayWeight(){
+			console.log(this.weight);
+		}
+	
+	} 
+	let dan = new Person('dan',32,75);
+	
+	dan.displayWeight();
+
+</script>
+
+</html>
