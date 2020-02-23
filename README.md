@@ -30,3 +30,5 @@ document.getElementById("demo").innerHTML = myname.personname;
 
 </body>
 </html>
+
+ES6 classes make our code safer by guaranteeing that an initialization function will be called, and they make it easier to define a fixed set of functions that operate on that data and maintain valid state.
